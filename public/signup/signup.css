@@ -33,6 +33,24 @@ button {
     cursor: pointer;
 }
 
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    background-color: #ebeb54;
+    width: 140px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px black;
+}
+
+a:hover {
+    background-color: black;
+    color: #fcfcbd;
+    transition: 0.2s ease-in;
+}
+
 button:hover {
     background-color: black;
     color: #fcfcbd;
