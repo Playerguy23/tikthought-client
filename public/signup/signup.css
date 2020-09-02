@@ -1,0 +1,51 @@
+body {
+    background-color: #3f7cb5;
+}
+
+h1 {
+    color: #87eded;
+    text-shadow: 2px 2px 4px black;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    color: #8db9fa;
+    text-shadow: 2px 2px 4px black;
+    font-size: 40px;
+    text-align: center;
+}
+
+input {
+    border: 0px;
+    background-color: #3f7cb500;
+    font-size: 30px;
+    border-bottom: 2px solid black
+}
+
+button {
+    border: 0px;
+    margin-top: 30px;
+    padding: 22px 24px;
+    background-color: #ebeb54;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: #fcfcbd;
+    transition: 0.2s ease-in;
+}
+
+#login-form {
+    text-align: center;
+
+    font-size: 40px;
+}
+
+::placeholder {
+    color: black;
+    text-shadow: 1px 1px 3px black;
+}
