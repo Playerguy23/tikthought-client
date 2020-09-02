@@ -8,7 +8,7 @@ const HOST = process.env.HOST || 'localhost';
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname + '/public'));
-app.use(express.static(__dirname + 'public'));
+app.use(express.static(__dirname + '/public'));
 app.use(morgan('combined'));
 
 const publicRote = require('./routes/publicRote');

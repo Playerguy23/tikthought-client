@@ -1,3 +1,28 @@
 body {
     background-color: #3f7cb5;
 }
+
+h1 {
+    color: #87eded;
+    text-shadow: 2px 2px 4px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+a {
+    display: block;
+    margin: 12pt 200pt 20pt 200pt;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    background-color: #ebeb54;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px black;
+}
+
+a:hover {
+    background-color: black;
+    color: #fcfcbd;
+    transition: 0.3s ease-in;
+}
