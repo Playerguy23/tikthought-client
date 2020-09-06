@@ -37,8 +37,9 @@ button {
     padding: 22px 24px;
     background-color: #ebeb54;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 50px;
     cursor: pointer;
+    box-shadow: 2px 3px 5px black;
 }
 
 a {
@@ -50,7 +51,7 @@ a {
     background-color: #ebeb54;
     width: 140px;
     border-radius: 20px;
-    box-shadow: 2px 3px 4px black;
+    box-shadow: 2px 6px 4px black;
 }
 
 a:hover {
