@@ -19,8 +19,6 @@ p {
 #error {
     color: red;
     font-size: 40pt;
-    /* width: 140pt; */
-    /* text-align: center; */
     font-family: 'Times New Roman', Times, serif;
 }
 

@@ -16,6 +16,12 @@ p {
     text-align: center;
 }
 
+#error {
+    color: red;
+    font-size: 40pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 input {
     border: 0px;
     background-color: #3f7cb500;
